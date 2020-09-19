@@ -1,0 +1,72 @@
+<!--
+/**
+ * 
+ * Coded with love
+ * File: index.html
+ * File Created: Wednesday, 16th 2020 09:43 AM
+ * @author Wisdom Tochi Kalu
+ * @version 1.0
+ * Modified By: Wisdom Tochi Kalu
+ * Last Modified: Saturday, 29 September 2020 11:04 AM
+ * Copyright @2020 Wisdom Tochi Kalu
+ * 
+ */
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Dynamic</title>
+</head>
+<body>
+
+    <div class="form-details">
+        <form action="cv.html" method="POST" id="form-items" name="myForm" onsubmit = "return(validate());">
+            <h3 class="form-title">CV DETAILS</h3>
+            <div>
+                <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" id="fname" class="text-input">
+            </div>
+            <div  class="pad">
+                <label for="middlename">Middle Name</label><br>
+                <input type="text" name="mname" id="middlename" class="text-input">
+            </div>
+            <div  class="pad">
+                <label for="lastname">Last Name</label><br>
+                <input type="text" name="lastname" id="lname" class="text-input">
+            </div>
+            <div  class="pad">
+                <label for="gender">Gender</label><br>
+                <select name="gender" id="gend" class="text-input">
+                    <option value="-1" selected>--select--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>   
+            <div  class="pad">
+                <label for="phone">Phone Number</label><br>
+                <input type="text" name="phone" id="phonenum" class="text-input">
+            </div>
+            <div  class="pad">
+                <label for="address">Address</label><br>
+                <input type="text" name="address" id="address" class="text-input">
+            </div>
+            <div  class="pad">
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="emailaddr" class="text-input">
+            </div>
+            <div>
+                <button type="submit" class="btn" value="submit" onclick="sendForm()">Submit</button>
+              </div>
+              <div class="error-box">
+              </div>
+        </form>
+    </div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Candal');
+
+body {
+	padding: 20px;
+	margin: 1% auto;
+	border: 20px solid #bdc3c7;
+    max-width: 700px;
+    background: #f6f6f6;
+    font-family: 'Lora', serif;
+}
+
+.heading {
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    font-weight: 2;
+}
+
+.first {
+	border-left: 5px solid #bdc3c7; 
+	padding-left: 1%;
+}
+
+hr {
+	color: 1px solid #bdc3c7;
+	margin: 2% auto;
+}
+
+.hrcolor {
+    border-top: 2px solid black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+/* A seperate class for styling the grid under the skills section */
+.grid-container-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.grid-item {
+    text-align: justify;
+    
+}
+
+.grid-item .p1 {
+    font-weight: 1000;
+    text-align: left;
+}
+
+.grid-item .p2 {
+    text-align: right;
+}
+
+span {
+  content: "\00B7";
+}
+
+.b {
+    margin: 0; 
+    padding-left: 16px; 
+    margin-top: 10px;
+}
+
+
+
+
+
